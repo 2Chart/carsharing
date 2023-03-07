@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".car">
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="412dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="4dp"
+        android:background="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/name_prof3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#8BC34A"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="62dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#009688"
+        app:srcCompat="@android:drawable/btn_dialog"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="713dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="64dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#009688"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="714dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="205dp"
+        android:layout_height="46dp"
+        android:fontFamily="serif"
+        android:text="Название"
+        android:textAllCaps="true"
+        android:textColor="#2C2E39"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="408dp"
+        android:layout_height="203dp"
+        app:srcCompat="@drawable/bmw_320i_1_1024x533"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Описание: "
+        android:textColor="#009688"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Цена: 9 р/мин"
+        android:textColor="#009688"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

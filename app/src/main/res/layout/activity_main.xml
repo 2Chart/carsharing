@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="413dp"
+        android:layout_height="646dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="428dp"
+        android:layout_height="657dp"
+        app:srcCompat="@drawable/apple_maps_russian_screenshot"
+        tools:layout_editor_absoluteX="-17dp"
+        tools:layout_editor_absoluteY="-11dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="412dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="4dp"
+        android:background="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="59dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="16dp"
+        android:background="#009688"
+        android:tint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="?android:attr/fingerprintAuthDrawable" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="62dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:background="#009688"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:srcCompat="@android:drawable/ic_dialog_map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="38dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/kisspng_beaver_creek_commons_google_maps_location_computer_places_5abdbc7d181e56_7807901215223839970988"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="38dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/kisspng_beaver_creek_commons_google_maps_location_computer_places_5abdbc7d181e56_7807901215223839970988"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="38dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/kisspng_beaver_creek_commons_google_maps_location_computer_places_5abdbc7d181e56_7807901215223839970988"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
